@@ -1,6 +1,16 @@
-# FinalAngular
+# Vend Project using Angular 2 CLI
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.30.
+
+## Install
+
+Clone this repo into new project folder (e.g., `my-proj`):
+```shell
+git clone https://github.com/rodrigo-delgado/angular-2-vend.git  my-proj
+
+cd my-proj
+
+npm install
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
