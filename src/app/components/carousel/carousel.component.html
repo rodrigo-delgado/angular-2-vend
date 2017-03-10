@@ -1,0 +1,18 @@
+
+	<div class="col-md-4 carousel-container">
+      <div class="grey-box">
+         <div class="new-in-vend">
+            <h3>NEW IN VEND</h3>
+         </div>
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+         <div class="carousel-left">
+            <ul class="slides">
+               <li *ngFor="let image of images">
+                  <h2>{{image.title}}</h2>
+                  <img src="{{image.url}}" alt="">
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>

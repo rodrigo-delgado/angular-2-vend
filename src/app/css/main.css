@@ -1,0 +1,158 @@
+body {
+  background: url("../../img/background.jpg") no-repeat;
+  background-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  color: #818181;
+  padding: 0;
+  margin: 0;
+}
+
+.sign-in-container {
+  padding: 0;
+}
+
+.carousel-container {
+  padding: 0;
+}
+
+p {
+    line-height: 25px;
+}
+
+a, a:hover, a:focus, .btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ececec;
+}
+
+
+
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+    .carousel {
+        margin-left: 60px;
+        margin-top: 0;
+        width: auto;
+        height: auto;
+    }
+    .navbar-inverse .navbar-toggle {
+        border-color: #525252;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #525252;
+    }
+}
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .carousel {
+        margin-left: 30px;
+    }
+    .navbar-inverse .navbar-toggle {
+        border-color: #525252;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #525252;
+    }
+}
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 14px;
+    }
+
+
+/*navigation*/
+    .navbar-inverse .navbar-toggle {
+        border-color: #525252;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #525252;
+    }
+
+/* slider */
+    .slides li {
+        font-size: 14px;
+    }
+
+    .carousel {
+        margin-left: 15px;
+    }
+
+/* panel */
+
+    .panel-body {
+    }
+
+    fieldset {
+      margin-right:0;
+    }
+
+/* footer */
+    .footer-content {
+      width: 100%;
+    }
+
+    .footer-social ul li {
+      margin: 0 7px;
+    }
+
+    /*.carousel {
+      display:flex;
+      flex-direction: column-reverse;
+    }*/
+
+     span.store {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    .btn {
+      margin-right: 40px;
+    }
+    .forgot-signin > label {
+      margin-left: 60px;
+    }
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .slides li {
+        font-size: 14px;
+    }
+
+/* footer */
+    .footer-content {
+        width: 380px;
+    }
+}
